@@ -5,8 +5,8 @@ import (
 	"errors"
 	"strings"
 
+	"github.com/gofrs/uuid"
 	"github.com/jmoiron/sqlx"
-	uuid "github.com/satori/go.uuid"
 )
 
 var (
